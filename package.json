@@ -8,13 +8,16 @@
     "nodev": "node -v",
     "gulp": "gulp",
     "gulp-watch": "gulp watch",
-    "babel": "babel src/script -d bulid/"
+    "babel": "babel src/script -d build/script",
+    "babel --plugins": "babel --plugins transform-object-assign script.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-assign": "^6.22.0",
     "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
     "del": "^3.0.0",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^4.1.0",
