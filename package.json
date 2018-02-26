@@ -1,0 +1,25 @@
+{
+  "name": "building",
+  "version": "0.0.1",
+  "description": "本地构建",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nodev": "node -v",
+    "gulp": "gulp",
+    "gulp-watch": "gulp watch",
+    "babel": "babel src/script -d bulid/"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-clean-css": "^3.9.2",
+    "gulp-less": "^3.5.0"
+  },
+  "dependencies": {}
+}
