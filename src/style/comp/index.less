@@ -1,0 +1,23 @@
+
+@base:#333;
+
+.row{
+    color:@base;
+    &:hover{
+        color: lighten(@base,50%);
+    }
+}
+
+
+.box {
+    padding :10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: #eee;
+    color: @base;
+    cursor: pointer;
+
+    &:hover{
+        color: greenyellow;
+    }
+}
+

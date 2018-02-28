@@ -12,9 +12,13 @@
             border-radius: 5px;
   }
 
-
+@width: 600px;
   .container{
-      width: 2200px;
+      background: blue;
+      height: 200px;
+      width: @width;
       margin: 50px auto;
       transform: translateZ(60px);
   }
+
+  @import "./comp/index.less";

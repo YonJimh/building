@@ -2,7 +2,7 @@ const gulp=require('gulp');
 const less=require('gulp-less');
 const del=require('del');
 const autoprefixer=require('gulp-autoprefixer');
-const cleanCSS=require('gulp-clean-css');
+const cleanCSS=require('gulp-clean-css');// 压缩css
 
 gulp.task('clean',()=>{
   del.sync('build');
